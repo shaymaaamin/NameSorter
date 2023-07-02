@@ -24,6 +24,13 @@ name-sorter.exe unsorted-names-list.txt
 
 This will read the list of names from `unsorted-names-list.txt`, sort them, and write the sorted list to a new file named `sorted-names-list.txt`.
 
+## Test
+To test the application, run the following command:
+```
+dotnet test
+```
+
+
 ## Dependencies
 This application was created with .NET 7.0
 
@@ -53,3 +60,4 @@ We used the `DIP` by injecting the abstractions of `ArgumentsChecker`, `FileRead
 - [Create a .NET console application using Visual Studio Code](https://learn.microsoft.com/en-ca/dotnet/core/tutorials/with-visual-studio-code?pivots%253Ddotnet-7-0)
 - [Single-file deployment](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs%253Dcli)
 - [SOLID Principles In C# With Examples](https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/)
+- [Test a .NET class library using Visual Studio Code](https://learn.microsoft.com/en-ca/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots%253Ddotnet-7-0)
