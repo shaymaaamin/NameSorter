@@ -61,3 +61,5 @@ We used the `DIP` by injecting the abstractions of `ArgumentsChecker`, `FileRead
 - [Single-file deployment](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs%253Dcli)
 - [SOLID Principles In C# With Examples](https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/)
 - [Test a .NET class library using Visual Studio Code](https://learn.microsoft.com/en-ca/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots%253Ddotnet-7-0)
+- [Building and testing .NET over Github Actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net)
+- [Upload a Build Artifact](https://github.com/marketplace/actions/upload-a-build-artifact)
