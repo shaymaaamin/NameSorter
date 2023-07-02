@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: name-sorter.exe
-          path: NameSorter/bin/Release/**/publish/name-sorter.exe
+          path: NameSorter/bin/Release/net7.0/win-x64/publish/name-sorter.exe
