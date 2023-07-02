@@ -20,6 +20,7 @@
 
             string[] lines = File.ReadAllLines(filename);
 
+            File.WriteAllText("sorted-names-list.txt", string.Empty);
             foreach (string line in lines)
             {
                 Console.WriteLine(line);
