@@ -19,6 +19,9 @@
             }
 
             string[] lines = File.ReadAllLines(filename);
+            lines = lines.OrderBy(line => line.Split(" ").Last())
+                        .ThenBy(line => string.Join(" ", line.Split(" ").Reverse().Skip(1).Reverse()))
+                        .ToArray();
 
             File.WriteAllText("sorted-names-list.txt", string.Empty);
             foreach (string line in lines)
