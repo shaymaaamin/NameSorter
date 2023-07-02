@@ -23,6 +23,7 @@
             foreach (string line in lines)
             {
                 Console.WriteLine(line);
+                File.AppendAllText("sorted-names-list.txt", line + "\n");
             }
 
         }
