@@ -17,6 +17,14 @@
                 Console.WriteLine($"File {filename} does not exist");
                 return;
             }
+
+            string[] lines = File.ReadAllLines(filename);
+
+            foreach (string line in lines)
+            {
+                Console.WriteLine(line);
+            }
+
         }
     }
 }
